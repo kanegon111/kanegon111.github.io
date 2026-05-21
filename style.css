@@ -4,6 +4,10 @@
 
 :root {
   --theme-color: #007bff;
+  --theme-color-light: #eaf2ff;
+  --theme-color-soft: #f5f9ff;
+  --theme-color-dark: #0056b3;
+  --border-color: #cfe0ff;
 }
 
 * {
@@ -18,7 +22,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #333;
+  color: #1f2a44;
+  background-color: #f8fbff;
 }
 
 /* --------------------
@@ -35,8 +40,12 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: var(--theme-color);
+  color: var(--theme-color-dark);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--theme-color);
 }
 
 /* --------------------
@@ -58,20 +67,20 @@ li:before {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-  border: solid 1px #f0f0f0;
+  border: solid 1px var(--border-color);
   min-width: 70%;
 }
 tr {
   background-color: #fff;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: var(--theme-color-soft);
 }
 th {
   background: var(--theme-color);
   color: #fff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px var(--border-color);
   padding: 0.5rem;
 }
