@@ -27,6 +27,19 @@ body {
 }
 
 /* --------------------
+        見出し
+-------------------- */
+
+h1, h2, h3 {
+  color: var(--theme-color);
+  border-bottom: dashed 0.1em var(--theme-color);
+}
+
+h1 {
+  color: #000 !important;
+}
+
+/* --------------------
         ヘッダー
 -------------------- */
 
@@ -36,7 +49,7 @@ body {
   margin: -30px -30px 30px -30px;
   border-radius: 0 0 15px 15px;
   box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
-  text-align: center;
+  text-align: left;
 }
 
 .header h1 {
@@ -48,19 +61,6 @@ body {
   letter-spacing: 3px;
   font-weight: bold;
   border: none !important;
-}
-
-/* --------------------
-        見出し
--------------------- */
-
-h1, h2, h3 {
-  color: var(--theme-color);
-  border-bottom: dashed 0.1em var(--theme-color);
-}
-
-h1 {
-  color: #000 !important;
 }
 
 /* --------------------
