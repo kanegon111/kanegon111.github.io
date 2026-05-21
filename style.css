@@ -1,115 +1,9 @@
-/* --------------------
-
-
 :root {
-  --theme-color: #007bff;
-  --theme-color-light: #eaf2ff;
-  --theme-color-soft: #f5f9ff;
-  --theme-color-dark: #0056b3;
-  --border-color: #cfe0ff;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 30px;
-  color: #1f2a44;
-  background-color: #f8fbff;
-}
-
-
-h1, h2, h3 {
-  color: var(--theme-color);
-  border-bottom: dashed 0.1em var(--theme-color);
-}
-
-h1 {
-  color: #000 !important;
-}
-
-
-
-.header {
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-  padding: 60px 40px;
-  margin: -30px -30px 30px -30px;
-  border-radius: 0 0 15px 15px;
-  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
-  text-align: left;
-}
-
-.header h1 {
-  color: #fff !important;
-  font-size: 3.5em;
-  margin: 0;
-  padding: 20px 0;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-  letter-spacing: 3px;
-  font-weight: bold;
-  border: none !important;
-}
-
-
-
-a {
-  color: var(--theme-color-dark);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--theme-color);
-}
-
-
-
-ul {
-  list-style: none;
-}
-li:before {
-  content: "★";
-  color: var(--theme-color);
-}
-
-
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  border: solid 1px var(--border-color);
-  min-width: 70%;
-}
-tr {
-  background-color: #fff;
-}
-tr:nth-child(2n) {
-  background-color: var(--theme-color-soft);
-}
-th {
-  background: var(--theme-color);
-  color: #fff;
-}
-th, td {
-  border: solid 1px var(--border-color);
-  padding: 0.5rem;
-}
-------------*/
-/* --------------------
-      全体・変数定義
--------------------- */
-:root {
-  --primary-color: #4f46e5;    /* トレンドの鮮やかなインディゴブルー */
+  --primary-color: #4f46e5;    
   --primary-light: #e0e7ff;
-  --text-color: #1f2937;       /* 柔らかい黒 */
+  --text-color: #1f2937;       
   --text-muted: #4b5563;
-  --bg-color: #f9fafb;         /* 明るくクリーンな背景 */
+  --bg-color: #f9fafb;         
   --card-bg: #ffffff;
   --border-radius: 12px;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
@@ -265,7 +159,7 @@ h3::after {
   border: none;
 }
 
-/* モダンな表スタイル */
+/*表*/
 .modern-table, .history-table {
   width: 100%;
   border-collapse: collapse;
